@@ -133,7 +133,7 @@ h2 {
 }
 
 .MotherDiv {
-  border: 5px solid red;
+  /* border: 5px solid red; */
   width: 90%;
   margin-inline: auto;
   display: flex;
@@ -141,7 +141,7 @@ h2 {
 }
 
 .Child1 {
-  border: 5px solid green;
+  /* border: 5px solid green; */
   width: 30%;
   display: flex;
   flex-direction: column;
@@ -273,4 +273,40 @@ h4 {
   justify-content: center;
   align-items: center;
   width: 7.3%;
+}
+/* ENDING OF SECTION 4 */
+
+/* ?FOOTER  */
+
+footer {
+  width: 100%;
+  margin-inline: auto;
+  background: #000000;
+  padding: 96px 0px;
+}
+
+.MainFooterDiv {
+  display: flex;
+  width: 90%;
+  /* border: 5px solid rebeccapurple; */
+  margin-inline: auto;
+}
+
+.Footer2div {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.MainFooterDiv div {
+  width: 20%;
+  /* border: 5px solid brown; */
+}
+
+.Footer2div p {
+  width: 90%;
 }
