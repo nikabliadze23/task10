@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* CONTAINER  */
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin-inline: auto;
+    border: 10px solid red;
+}
+
+/* HEADER  */
+header {
+    width: 97%;
+    /* border: 5px solid yellowgreen; */
+    padding: 24px 0px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+/* HEADER LI  */
+header li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #000000;
+}
+
+/* HEADER UL  */
+.header_ul {
+    display: flex;
+    gap: 24px;
+}
+
+/* PARAGRAP DIV  */
+.paragraph_div {
+    background: #000000;
+    border-radius: 32px;
+}
+
+/* HEADER P  */
+.Action_P {
+    color: #F3F3F3;
+    padding: 12px 24px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* SECTION  */
+.SectionOne {
+    /* border: 15px solid black; */
+    width: 100%;
+    padding: 64px 165px;
+    font-family: 'Inter', sans-serif;
+}
+
+.SectionDiv {
+    /* border: 10px solid green; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.SectionDiv_1 {
+    /* border: 10px solid brown; */
+}
+
+.SectionDiv_img {
+    /* border: solid rebeccapurple; */
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 60px;
+}
+
+.SectionDiv_1_P {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    width: 83%;
+}
+
+.ActionP_2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    width: 40%;
+}
+
+.P_DIV {
+    background: #000000;
+    border-radius: 32px;
+    width: 30%;
+    padding: 12px 24px;
+}
+
+.ActionP2 {
+    color: #F3F3F3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.Action_P_div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
