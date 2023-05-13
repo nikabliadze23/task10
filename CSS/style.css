@@ -223,3 +223,54 @@ h3 {
 .S_Child2 ul li {
   margin-bottom: 8px;
 }
+
+/* ENDIGNG OF SECTION 3  */
+
+/* ?SEction 4  */
+
+.Section_4 {
+  background: url(../Photos/studio.webp);
+  height: 566px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SectionDiv_4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.S4_P {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+  width: 60%;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.S4_action_div {
+  background: #000000;
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7.3%;
+}
