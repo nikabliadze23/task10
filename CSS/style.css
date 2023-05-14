@@ -58,12 +58,12 @@ header li {
 .SectionOne {
   /* *border: 15px solid black; */
   width: 100%;
-  padding: 64px 165px;
+  padding: 64px 0px;
 }
 
 .SectionDiv {
   /* border: 10px solid green; */
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -75,7 +75,7 @@ header li {
 }
 
 .SectionDiv_img {
-  border: solid rebeccapurple;
+  /* border: solid rebeccapurple; */
 }
 
 h2 {
@@ -275,7 +275,7 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 7.3%;
+  width: 12%;
 }
 /* ENDING OF SECTION 4 */
 
@@ -295,9 +295,9 @@ footer {
   margin-inline: auto;
 }
 
-.FooterAdditional{
-    /* border: 5px solid rebeccapurple; */
-    width: 100%;
+.FooterAdditional {
+  /* border: 5px solid rebeccapurple; */
+  width: 100%;
 }
 
 .Footer2div {
@@ -312,7 +312,6 @@ footer {
   /* border: 5px solid red; */
   width: 20%;
 }
-
 
 .Footer2div p {
   width: 90%;

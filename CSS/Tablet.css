@@ -95,6 +95,93 @@
   }
 }
 
-Footer რომ ვასწორებ 1024 პიქსელზე 1440 ზე ირევა და ცუდად გამოდის, ვერ გავუგე რატომ.
+/* Footer რომ ვასწორებ 1024 პიქსელზე 1440 ზე ირევა და ცუდად გამოდის, ვერ გავუგე რატომ. */
 
 /* !End of Footer on 1024px  */
+
+@media (max-width: 744px) {
+  h2 {
+    font-size: 40px;
+    width: 100%;
+  }
+
+  .SectionDiv_1_P {
+    width: 100%;
+    align-self: stretch;
+  }
+
+  .Action_P_div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .P_DIV {
+    width: 29%;
+  }
+
+  .ActionP_2 {
+    width: 100%;
+  }
+
+  .Section1Img {
+    margin-top: 24px;
+  }
+
+  /* *END OF SECTION 1 on 744 px  */
+
+  /* *Section2  */
+
+  .MotherDiv {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .Child1 {
+    width: 100%;
+    /* border: 5px solid red; */
+  }
+
+  .Child_1_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* !აქ section text, logically დან უნდა გადადიოდეს შემდეგ ხაზზე და ეგ ვერ დავსვი. */
+
+  /* Start of section 3 on 744px  */
+  .MotherDiv2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 29px;
+  }
+
+  .S_Child2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 29px;
+  }
+
+  h3 {
+    width: 97%;
+  }
+
+  /* .lite_li{
+    margin-bottom: 29px;
+  } */   
+  /* ამ მოქმედებას არ მაკეთებინებს */
+
+  /* !END OF SECTION 3 on 744px  */
+
+  /* SECTION 4 on 744 px  */
+
+  h4{
+    width: 97%;
+  }
+
+  /* !End of media  */
+}
