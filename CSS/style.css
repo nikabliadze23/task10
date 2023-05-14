@@ -20,6 +20,10 @@ header {
   align-items: center;
 }
 
+.Burger_icon {
+  display: none;
+}
+
 /* ?HEADER LI  */
 header li {
   font-style: normal;
@@ -275,7 +279,7 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 12%;
+  width: 15%;
 }
 /* ENDING OF SECTION 4 */
 

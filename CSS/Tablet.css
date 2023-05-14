@@ -127,6 +127,10 @@
     margin-top: 24px;
   }
 
+  .Section3_img {
+    height: 550px;
+  }
+
   /* *END OF SECTION 1 on 744 px  */
 
   /* *Section2  */
@@ -172,16 +176,86 @@
 
   /* .lite_li{
     margin-bottom: 29px;
-  } */   
+  } */
   /* ამ მოქმედებას არ მაკეთებინებს */
 
   /* !END OF SECTION 3 on 744px  */
 
   /* SECTION 4 on 744 px  */
 
-  h4{
+  h4 {
     width: 97%;
   }
 
   /* !End of media  */
+}
+
+@media (max-width: 590px) {
+  .Burger_icon {
+    display: block;
+  }
+
+  .header_ul {
+    display: none;
+  }
+  .Action_P {
+    display: none;
+  }
+
+  .lost {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  .MainFooterDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .FooterAdditional {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+  }
+
+  .Section1Img {
+    height: 390px;
+  }
+
+  .Section3_img {
+    height: 250px;
+  }
+}
+
+@media (max-width: 375px) {
+  .Section1Img {
+    height: 309px;
+  }
+
+  .Section3_img {
+    height: 195px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  .lite_li {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .Section_4 {
+    height: 500px;
+  }
+
+  h4 {
+    font-size: 24px;
+    width: 73.5%;
+  }
 }
