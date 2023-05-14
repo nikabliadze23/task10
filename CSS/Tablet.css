@@ -1,0 +1,100 @@
+@media (max-width: 1320px) {
+  .SectionDiv {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .SectionDiv_img {
+    width: 100%;
+  }
+
+  .Section1Img {
+    width: 100%;
+    height: 450px;
+    margin-top: 80px;
+  }
+
+  .SectionDiv_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  h2 {
+    width: 80%;
+  }
+
+  .SectionDiv_1_P {
+    width: 65%;
+  }
+
+  .ActionP_2 {
+    width: 85%;
+  }
+}
+
+/* !End of section 1 on 1320 px  */
+
+/* !SECTION 3  */
+
+@media (max-width: 1024px) {
+  .MotherDiv2 {
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    margin-inline: auto;
+  }
+
+  .S_Child1 {
+    width: 100%;
+  }
+
+  .Section3_img {
+    width: 100%;
+    height: 550px;
+  }
+
+  .S_Child2 {
+    display: flex;
+    gap: 129px;
+    width: 100%;
+  }
+
+  h3 {
+    width: 87%;
+  }
+
+  .lite_li {
+    margin-top: 0px;
+    width: 93%;
+  }
+}
+
+/* !END OF SECTION 3 */
+
+/* !FOOTER  */
+
+@media (max-width: 1024px) {
+  .MainFooterDiv {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .FooterAdditional {
+    display: flex;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .Footer2divLogo {
+    margin-bottom: 48px;
+  }
+}
+
+Footer რომ ვასწორებ 1024 პიქსელზე 1440 ზე ირევა და ცუდად გამოდის, ვერ გავუგე რატომ.
+
+/* !End of Footer on 1024px  */
